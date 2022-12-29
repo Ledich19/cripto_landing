@@ -1,0 +1,50 @@
+//<обнуление общие параметры>===================
+@import "null";
+@import "fonts";
+@import "icons";
+
+body {
+  color: #21243d;
+  font-size: 14px;
+  &._lock {
+    overflow: hidden;
+  }
+}
+
+* {
+  font-family: Lato;
+}
+
+//<ПЕРЕМЕННЫЕ>==================================
+$minWidht: 320px;
+$maxWidht: 1920;
+$maxWidhtConteiner: 1326;
+$md1: $maxWidhtConteiner+12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+//<ОСНОВНАЯ СЕТКА>===================
+._container {
+  max-width: $maxWidhtConteiner + px;
+  margin: 0 auto;
+  @media (max-width: #{$md1}px) {
+    max-width: 970px;
+  }
+  @media (max-width: #{$md2}px) {
+    max-width: 750px;
+  }
+  @media (max-width: #{$md3}px) {
+    max-width: none;
+    padding: 0 10px;
+  }
+}
+
+@import "header";
+
+@import "footer";
+
+
+
+._active {
+  color: #fc3f3f;
+}

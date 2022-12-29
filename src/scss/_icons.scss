@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "icons";
+    font-display: swap;
+    src: url("../fonts/icons.woff2") format("woff2"), url("../fonts/icons.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+%ic {
+    font-family: "icons";
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+}
+
+[class^="_icon-"],
+[class*="_icon-"] {
+    &:before {
+        @extend %ic;
+        display: block;
+    }
+}
+._icon-fb:before {
+    content: "\e900";
+  }
+  ._icon-insta:before {
+    content: "\e901";
+  }
+  ._icon-Linkedin:before {
+    content: "\e902";
+  }
+  ._icon-tvit:before {
+    content: "\e903";
+  }
