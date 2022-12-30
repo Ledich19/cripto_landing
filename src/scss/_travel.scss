@@ -1,0 +1,41 @@
+.travel {
+   padding-top: 105px;
+   padding-bottom: 155px;
+}
+
+.travel__block {
+   display: flex;
+   justify-content: space-between;
+}
+.travel__block-text {
+   max-width: 428px;
+}
+.travel__title {
+   margin-bottom: 34px;
+
+   font-family: Cardo;
+   font-weight: 700;
+   font-size: 100px;
+   line-height: 0.8;
+   letter-spacing: 5px;
+}
+
+.travel__text {
+   margin-bottom: 42px;
+
+   font-family: Lato;
+   font-size: 44px;
+}
+
+.travel__button {
+   padding: 19px 58px;
+   border-radius: 5px;
+
+   font-size: 21px;
+   color: #E9E7E7;
+   background-color: rgba(35, 35, 35, 1);
+}
+.travel__block-img {
+}
+.travel__img {
+}
