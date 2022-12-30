@@ -1,6 +1,6 @@
 //<обнуление общие параметры>===================
 @import "null";
-@import "fonts";
+// @import "fonts";
 @import "icons";
 
 body {
@@ -39,7 +39,7 @@ $md4: 479.98;
   }
 }
 
-@import "header";
+@import "_header";
 
 @import "footer";
 
