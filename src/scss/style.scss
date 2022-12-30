@@ -1,11 +1,12 @@
 //<обнуление общие параметры>===================
 @import "null";
-@import "fonts";
+// @import "fonts";
 @import "icons";
+@import "variables";
 
 body {
-  color: #21243d;
-  font-size: 14px;
+  color: var(--mine-black);
+  font-size: 16px;
   &._lock {
     overflow: hidden;
   }
@@ -27,6 +28,7 @@ $md4: 479.98;
 ._container {
   max-width: $maxWidhtConteiner + px;
   margin: 0 auto;
+  padding: 0 12px;
   @media (max-width: #{$md1}px) {
     max-width: 970px;
   }
@@ -39,7 +41,7 @@ $md4: 479.98;
   }
 }
 
-@import "header";
+@import "_header";
 
 @import "footer";
 
