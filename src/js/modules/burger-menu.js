@@ -1,6 +1,6 @@
 export default function burger() {
-  const iconMenu = document.querySelector(".menu__icon");
-  const bodyMenu = document.querySelector(".menu__body");
+  const iconMenu = document.querySelector("#menu-icon");
+  const bodyMenu = document.querySelector("#menu-body");
 
   if (iconMenu) {
     iconMenu.addEventListener("click", () => {
