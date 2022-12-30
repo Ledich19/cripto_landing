@@ -1,6 +1,6 @@
 .header {
   padding-top: 65px;
-  &__wrapper{
+  &__wrapper {
     display: flex;
     justify-content: space-between;
   }
@@ -34,12 +34,24 @@
   &__link {
     color: var(--mine-black);
 
-    &:hover{
+    &:hover {
       color: var(--hover-black);
     }
   }
 }
 
+@media (max-width: #{$md1}px) {
+  .header {
+  }
+}
+@media (max-width: #{$md2}px) {
+  .header {
+  }
+}
+@media (max-width: #{$md3}px) {
+  .header {
+  }
+}
 
 //<БУРГЕР>============================
 .icon-menu {
