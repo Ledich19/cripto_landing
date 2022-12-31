@@ -1,0 +1,37 @@
+.remember {
+  &__container {
+    padding-top: 54px;
+    padding-bottom: 54px;
+    display: flex;
+    justify-content: center;
+    background: left top / 25% no-repeat url(./../assets/img/scribble/scribble-light-remember.png),
+    var(--mine-black) right bottom / 25% no-repeat url(./../assets/img/scribble/scribble-light-2-remember.png);
+  }
+ 
+  &__center {
+    color: white;
+    flex: 1 1 auto;
+    max-width: 439px;
+    text-align: center;
+  }
+  &__title {
+    font-size: 25px;
+  }
+  &__text {
+    margin-top: 33px;
+  }
+  &__btn {
+    margin-top: 36px;
+    padding: 10px 61px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border: solid 3px white;
+    background: var(--mine-black);
+    border-radius: 5px;
+    &:active{
+
+    }
+  }
+ 
+}
