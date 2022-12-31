@@ -5,8 +5,8 @@
     padding-bottom: 54px;
     display: flex;
     justify-content: center;
-    background: left top / 25% no-repeat url(./../assets/img/scribble/scribble-light-remember.png),
-   var(--mine-black) right bottom / 25% no-repeat url(./../assets/img/scribble/scribble-light-2-remember.png);
+    background: left -19% top 29%/38% no-repeat url(./../assets/img/scribble/scribble-light-remember.png),
+   var(--mine-black) right -18% bottom 18%/40%  no-repeat url(./../assets/img/scribble/scribble-light-2-remember.png);
   }
  
   &__center {
@@ -16,7 +16,9 @@
     text-align: center;
   }
   &__title {
-    font-size: 25px;
+    font-size: 63px;
+    line-height: 59px;
+    font-family: Cardo-Bold;
   }
   &__text {
     margin-top: 33px;
@@ -27,11 +29,12 @@
     font-size: 22px;
     font-weight: bold;
     color: var(--mine-white);
-    border: solid 3px var(--mine-white);
+    outline: solid 3px var(--mine-white);
     background: var(--mine-black);
     border-radius: 5px;
     &:active{
-
+      background: var(--hover-black);
+      outline: solid 2px var(--mine-white);
     }
   }
  
