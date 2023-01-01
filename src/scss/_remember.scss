@@ -1,0 +1,41 @@
+.remember {
+  // background: var(--mine-black);
+  background: left -13% top 24%/38% no-repeat url(./../assets/img/scribble/scribble-light-remember.png),
+ var(--mine-black) right -10% bottom 18%/40%  no-repeat url(./../assets/img/scribble/scribble-light-2-remember.png);
+  &__container {
+    padding-top: 54px;
+    padding-bottom: 54px;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  &__center {
+    color: var(--mine-white);
+    flex: 1 1 auto;
+    max-width: 439px;
+    text-align: center;
+  }
+  &__title {
+    font-size: 63px;
+    line-height: 59px;
+    font-family: Cardo-Bold;
+  }
+  &__text {
+    margin-top: 20px;
+  }
+  &__btn {
+    margin-top: 51px;
+    padding: 10px 61px;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--mine-white);
+    outline: solid 3px var(--mine-white);
+    background: var(--mine-black);
+    border-radius: 5px;
+    &:active{
+      background: var(--hover-black);
+      outline: solid 2px var(--mine-white);
+    }
+  }
+ 
+}

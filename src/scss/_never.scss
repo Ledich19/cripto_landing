@@ -1,0 +1,86 @@
+.never {
+  padding-top: 235px;
+  padding-bottom: 170px;
+  background: left 13% top 94%/32% no-repeat url(@img/scribble/scribble-dark-never.png),
+    right -16% bottom 20%/31.5% no-repeat
+      url(@img/scribble/scribble-lighte-never.png);
+  &__fly {
+    margin: 0 auto;
+    width: 80px;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 99px;
+    width: 795px;
+    margin: 0 auto;
+    line-height: 100%;
+    font-family: Cardo, serif;
+    font-weight: 700;
+    margin-top: 56px;
+  }
+  &__word {
+    text-decoration:underline;
+
+  }
+  &__text {
+    margin: 0 auto;
+    margin-top: 55px;
+    text-align: center;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: #{$md1}px) {
+  .never {
+    &__fly {
+    }
+    &__title {
+    }
+    &__word {
+    }
+    &__text {
+    }
+  }
+}
+@media (max-width: #{$md2}px) {
+  .never {
+    &__fly {
+    }
+    &__title {
+width: 100%;
+    font-size: 50px;
+
+    }
+    &__word {
+    }
+    &__text {
+    }
+  }
+}
+@media (max-width: #{$md3}px) {
+  .never {
+    &__fly {
+    }
+    &__title {
+    }
+    &__word {
+    }
+    &__text {
+    }
+  }
+}
+@media (max-width: #{$md4}px) {
+  .never {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    &__fly {
+    }
+    &__title {
+    }
+    &__word {
+    }
+    &__text {
+    }
+  }
+}
