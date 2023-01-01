@@ -6,8 +6,7 @@
     justify-content: space-between;
   }
   &__btn {
-    width: 221px;
-    height: 57px;
+    padding: 10px 60px;
     font-size: 22px;
     font-weight: bold;
     color: var(--mine-black);
@@ -63,7 +62,7 @@ img {
     width: 100%;
     justify-content: center;
     background: white;
-    margin-left: -100%;
+    margin-left: -110%;
     transition: all 1s ease-in-out 0s;
     
     &._menu-open {

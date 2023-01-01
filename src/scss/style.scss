@@ -19,7 +19,7 @@ body {
 //<ПЕРЕМЕННЫЕ>==================================
 $minWidht: 320px;
 $maxWidht: 1920;
-$maxWidhtConteiner: 1222;
+$maxWidhtConteiner: 1200;
 $md1: $maxWidhtConteiner+12;
 $md2: 991.98;
 $md3: 767.98;
@@ -28,12 +28,15 @@ $md4: 479.98;
 ._container {
   max-width: $maxWidhtConteiner + px;
   margin: 0 auto;
-  padding: 0 12px;
+  padding: 0px 0px;
   @media (max-width: #{$md1}px) {
-    max-width: 970px;
+    padding: 0px 30px;
+    //max-width: 970px;
   }
   @media (max-width: #{$md2}px) {
-    max-width: 750px;
+    padding: 0px 10px;
+    margin: 0;
+    //max-width: 750px;
   }
   @media (max-width: #{$md3}px) {
     max-width: none;
@@ -42,6 +45,9 @@ $md4: 479.98;
 }
 
 @import "_header";
+@import "_remember";
+
+@import "_photos";
 
 @import "footer";
 
