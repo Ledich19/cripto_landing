@@ -1,52 +1,50 @@
 .travel {
-   position: relative;
-
-   overflow: hidden;
-
-   padding-top: 105px;
-   padding-bottom: 155px;
-
-   background: left -33% top -420%/50% no-repeat url(@img/scribble/scribbles-lighte-travel.png),
-   right -5% bottom 125%/15% no-repeat
-     url(@img/scribble/scribble-darck-travel.png);
+  position: relative;
+  overflow: hidden;
+  padding-top: 105px;
+  padding-bottom: 155px;
+  background: left -62% bottom -193px/61% no-repeat
+      url(../assets/img/scribble/scribbles-lighte-travel.png),
+    right -7% bottom -130%/15% no-repeat
+      url(../assets/img/scribble/scribble-darck-travel.png);
 }
 
 .travel__block {
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .travel__block-text {
-   max-width: 428px;
+  max-width: 428px;
 }
 
 .travel__title {
-   margin-bottom: 34px;
+  margin-bottom: 34px;
 
-   font-family: Cardo;
-   font-weight: 700;
-   font-size: 70px;
-   line-height: 1;
-   letter-spacing: 1px;
+  font-family: Cardo;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1;
+  letter-spacing: 1px;
 }
 
 .travel__text {
-   margin-bottom: 42px;
+  margin-bottom: 42px;
 
-   font-family: Lato;
-   font-size: 20px;
+  font-family: Lato;
+  font-size: 20px;
 }
 
 .travel__button {
-   padding: 19px 58px;
-   border-radius: 5px;
+  padding: 19px 58px;
+  border-radius: 5px;
 
-   font-size: 21px;
-   color: #E9E7E7;
-   background-color: rgba(35, 35, 35, 1);
+  font-size: 21px;
+  color: #e9e7e7;
+  background-color: rgba(35, 35, 35, 1);
 }
 
 .travel__img {
-   width:662px;
-   height: 419px;
+  width: 662px;
+  height: 419px;
 }
