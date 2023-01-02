@@ -1,9 +1,10 @@
 .never {
   padding-top: 235px;
-  padding-bottom: 170px;
-  background: left 13% top 94%/32% no-repeat url(@img/scribble/scribble-dark-never.png),
-    right -16% bottom 20%/31.5% no-repeat
-      url(@img/scribble/scribble-lighte-never.png);
+  padding-bottom: 250px;
+  background: left 13% top 84%/32% no-repeat
+      url(../assets/img/scribble/scribble-dark-never.png),
+    right -18% bottom -39%/31.5% no-repeat
+      url(../assets/img/scribble/scribble-lighte-never.png);
   &__fly {
     margin: 0 auto;
     width: 80px;
@@ -20,8 +21,7 @@
     margin-top: 56px;
   }
   &__word {
-    text-decoration:underline;
-
+    text-decoration: underline;
   }
   &__text {
     margin: 0 auto;
@@ -48,9 +48,8 @@
     &__fly {
     }
     &__title {
-width: 100%;
-    font-size: 50px;
-
+      width: 100%;
+      font-size: 50px;
     }
     &__word {
     }
