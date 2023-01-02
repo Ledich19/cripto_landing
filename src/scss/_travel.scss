@@ -1,0 +1,74 @@
+.travel {
+   position: relative;
+
+   overflow: hidden;
+
+   padding-top: 105px;
+   padding-bottom: 155px;
+
+   background: left 0% bottom 0%/61% no-repeat url(@img/scribble/scribbles-lighte-travel.png),
+   right -7% bottom -130%/15% no-repeat
+      url(@img/scribble/scribble-darck-travel.png);
+
+      &__block {
+         display: flex;
+         justify-content: space-between;
+      }
+      
+      &__block-text {
+         max-width: 428px;
+      }
+      
+      &__title {
+         margin-bottom: 34px;
+      
+         font-family: Cardo;
+         font-weight: 700;
+         font-size: 70px;
+         line-height: 1;
+         letter-spacing: 1px;
+      }
+      
+      &__text {
+         margin-bottom: 42px;
+      
+         font-family: Lato;
+         font-size: 20px;
+      }
+      
+      &__button {
+         padding: 19px 58px;
+         border-radius: 5px;
+      
+         font-size: 21px;
+         color: #E9E7E7;
+         background-color: rgba(35, 35, 35, 1);
+      }
+      
+      &__img {
+         width: 100%;
+         max-width:662px;
+         height: auto;
+      }
+}
+
+@media (max-width: #{$md2}px) {
+   .travel__img {
+      display: none;
+   }
+
+   .travel__block {
+      display: flex;
+      justify-content: center;
+   }  
+
+   .travel__block-text {
+      text-align: center;
+   }
+}
+
+@media (max-width: #{$md4}px) {
+   .travel__title {
+      font-size: 65px;
+   }
+}
