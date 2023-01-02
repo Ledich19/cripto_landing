@@ -8,45 +8,46 @@
 
    background: left 0% bottom 0%/61% no-repeat url(@img/scribble/scribbles-lighte-travel.png),
    right -7% bottom -130%/15% no-repeat
-     url(@img/scribble/scribble-darck-travel.png);
-}
+      url(@img/scribble/scribble-darck-travel.png);
 
-.travel__block {
-   display: flex;
-   justify-content: space-between;
-}
-
-.travel__block-text {
-   max-width: 428px;
-}
-
-.travel__title {
-   margin-bottom: 34px;
-
-   font-family: Cardo;
-   font-weight: 700;
-   font-size: 70px;
-   line-height: 1;
-   letter-spacing: 1px;
-}
-
-.travel__text {
-   margin-bottom: 42px;
-
-   font-family: Lato;
-   font-size: 20px;
-}
-
-.travel__button {
-   padding: 19px 58px;
-   border-radius: 5px;
-
-   font-size: 21px;
-   color: #E9E7E7;
-   background-color: rgba(35, 35, 35, 1);
-}
-
-.travel__img {
-   width:662px;
-   height: 419px;
+      &__block {
+         display: flex;
+         justify-content: space-between;
+      }
+      
+      &__block-text {
+         max-width: 428px;
+      }
+      
+      &__title {
+         margin-bottom: 34px;
+      
+         font-family: Cardo;
+         font-weight: 700;
+         font-size: 70px;
+         line-height: 1;
+         letter-spacing: 1px;
+      }
+      
+      &__text {
+         margin-bottom: 42px;
+      
+         font-family: Lato;
+         font-size: 20px;
+      }
+      
+      &__button {
+         padding: 19px 58px;
+         border-radius: 5px;
+      
+         font-size: 21px;
+         color: #E9E7E7;
+         background-color: rgba(35, 35, 35, 1);
+      }
+      
+      &__img {
+         width: 100%;
+         max-width:662px;
+         height: auto;
+      }
 }
