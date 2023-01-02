@@ -3,6 +3,7 @@
 // @import "fonts";
 @import "icons";
 @import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Lato:ital,wght@0,700;1,400&display=swap');
 
 body {
   color: var(--mine-black);
@@ -51,6 +52,8 @@ $md4: 479.98;
 @import "_remember";
 
 @import "_photos";
+@import "_never";
+@import "_more-photo";
 
 @import "footer";
 
@@ -58,4 +61,11 @@ $md4: 479.98;
 
 ._active {
   color: #fc3f3f;
+}
+.photo {
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }

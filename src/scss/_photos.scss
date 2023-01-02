@@ -14,16 +14,10 @@
     width: calc((100% - 120px) / 3);
   }
   &__photo {
-  }
-  .photo {
     width: 100%;
     height: 200px;
-    &__img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
   }
+
   &__line {
     height: 2px;
     width: 55px;
@@ -43,7 +37,6 @@
 }
 
 @media (max-width: #{$md1}px) {
-  
 }
 @media (max-width: #{$md2}px) {
   .photos {
@@ -72,15 +65,15 @@
   }
 }
 @media (max-width: #{$md3}px) {
- 
 }
 @media (max-width: #{$md4}px) {
   .photos {
-    
+    &__container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
     &__item {
- 
       width: 100%;
     }
-   
   }
 }
