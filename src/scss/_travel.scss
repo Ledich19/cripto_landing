@@ -5,15 +5,21 @@
 
    padding-top: 105px;
    padding-bottom: 155px;
+
+   background: left -33% top -420%/50% no-repeat url(@img/scribble/scribbles-lighte-travel.png),
+   right -5% bottom 125%/15% no-repeat
+     url(@img/scribble/scribble-darck-travel.png);
 }
 
 .travel__block {
    display: flex;
    justify-content: space-between;
 }
+
 .travel__block-text {
    max-width: 428px;
 }
+
 .travel__title {
    margin-bottom: 34px;
 
@@ -43,25 +49,4 @@
 .travel__img {
    width:662px;
    height: 419px;
-}
-
-.travel__block-line {
-}
-
-.travel__img-light {
-   position: absolute;
-   bottom: -300px;
-   left: -300px;
-
-   width:914px;
-   height: 849px;
-}
-
-.travel__img-dark {
-   position: absolute;
-   bottom: -75px;
-   right: -50px;
-
-   width: 174px;
-   height: 462px;
 }
