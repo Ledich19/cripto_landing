@@ -6,19 +6,23 @@
 })
 
 <body>
-  @@include('html/_header.html',{
-    "link": "1"
-  })
-  <main class="page">
-    <!-- приклад як використовувати  -->
-    <!-- <img src="@img/scribble/scribble-light-remember.png" alt=""> -->
-    <!-- background: url(@img/scribble/scribble-dark-slider-1.png); -->
-    @@include('html/_remember.html',{})
- 
-    @@include('html/_photos.html',{})
-  </main>
-  @@include('html/_footer.html',{})
-  <script src="js/app.min.js"></script>
+   @@include('html/_header.html',{
+   "link": "1"
+   })
+   <main class="page">
+      <!-- приклад як використовувати  -->
+      <!-- <img src="@img/scribble/scribble-light-remember.png" alt=""> -->
+      <!-- background: url(@img/scribble/scribble-dark-slider-1.png); -->
+      @@include('html/_remember.html',{})
+
+      @@include('html/_photos.html',{})
+
+      @@include('html/_feedback.html',{})
+   </main>
+   @@include('html/_footer.html',{})
+   <script src="js/app.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="./js/modules/feedback-slider.js"></script>
 </body>
 
 </html>
