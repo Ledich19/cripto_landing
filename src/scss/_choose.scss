@@ -1,0 +1,79 @@
+.choose {
+  background: var(--mine-black) left -13% bottom 0%/43% no-repeat url(@img/scribble/scribble-light-choose.png);
+  &__wrapper {
+    padding: 155px 0;
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+  }
+  &__text-block {
+    padding-right: 110px;
+    //padding: 0 100px;
+    width: 50%;
+    color: var(--mine-white);
+  }
+  &__photo-block {
+    width: 50%;
+  }
+  &__title {
+    font-size: 59px;
+    line-height: 59px;
+    font-family: Cardo;
+    font-weight: bold;
+  }
+  &__notes-block{
+    margin-top: 91px;
+  }
+  &__note {
+    margin-top: 25px;
+  }
+  &__subtitle {
+    font-size: 25px;
+    line-height: 59px;
+    font-family: Cardo;
+    font-weight: bold;
+  }
+  &__text {
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -ms-line-clamp: 6;
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+    display: -webkit-box;
+    display: box;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    line-height: 19px;
+  }
+}
+
+.photo {
+}
+.photo__img {
+}
+
+
+// @media (max-width: #{$md1}px) {
+
+// }
+// @media (max-width: #{$md2}px) {
+
+// }
+@media (max-width: #{$md3}px) {
+  .choose {
+  &__photo-block {
+    display: none;
+  }
+  &__text-block {
+    padding: 0  20px;
+
+    width: 100%;
+
+  }
+}
+}
+// @media (max-width: #{$md4}px) {
+
+// }
