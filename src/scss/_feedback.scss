@@ -87,6 +87,10 @@
    color: #232323;
 }
 .swiper-button-prev {
+   border: solid 1px black;
+}
+.swiper-button-prev::after{
+   display: none;
 }
 .swiper-button-next {
 }
